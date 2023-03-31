@@ -1,10 +1,10 @@
-﻿using Permission.Core.Extensions.DataTable;
-using Permission.Core.Models;
-using Permission.Infra.Data.Models.Base;
-using Microsoft.EntityFrameworkCore;
-using System.Linq.Expressions;
-using Permission.Infra.Data.Context;
+﻿using Microsoft.EntityFrameworkCore;
+using Permission.Core.Extensions.DataTable;
 using Permission.Core.Interfaces.Services.Base;
+using Permission.Core.Models;
+using Permission.Infra.Data.Context;
+using Permission.Infra.Data.Models.Base;
+using System.Linq.Expressions;
 
 namespace Permission.Core.Services.Base
 {

@@ -1,8 +1,5 @@
 ﻿using Permission.Infra.Data.Models.Base;
-using System;
-using System.Collections.Generic;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
 
 namespace Permission.Core.Services.Base
 {

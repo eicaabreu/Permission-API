@@ -1,6 +1,4 @@
-﻿using Permission.Infra.Data.Models.Base;
-
-namespace Permission.Infra.Data.Models
+﻿namespace Permission.Infra.Data.Models
 {
     public partial class PermissionType
     {

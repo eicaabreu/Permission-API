@@ -1,5 +1,4 @@
 ﻿using Permission.Core.Models;
-using System.Linq;
 using System.Linq.Expressions;
 
 namespace Permission.Core.Extensions.DataTable

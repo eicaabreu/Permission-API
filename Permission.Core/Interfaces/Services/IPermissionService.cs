@@ -3,7 +3,6 @@
 using Permission.Core.DTOs;
 using Permission.Core.Models;
 using Permission.Core.Services.Base;
-using Permission.Infra.Data.Models;
 
 namespace Permission.Core.Interfaces.Services
 {

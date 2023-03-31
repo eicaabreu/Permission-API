@@ -5,7 +5,6 @@ using Permission.Core.Interfaces.Services;
 using Permission.Core.Services;
 using Permission.Core.Services.Base;
 using Permission.Infra.Data.Context;
-using System.Reflection;
 
 namespace Permission.Infra.CrossCutting.Ioc
 {
@@ -21,7 +20,7 @@ namespace Permission.Infra.CrossCutting.Ioc
 
             return services;
         }
-       
+
 
     }
 }

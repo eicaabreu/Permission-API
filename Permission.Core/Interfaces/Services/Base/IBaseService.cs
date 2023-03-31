@@ -3,7 +3,7 @@ using System.Linq.Expressions;
 
 namespace Permission.Core.Interfaces.Services.Base
 {
-    public interface IBaseService<T>  where T : BaseEntity
+    public interface IBaseService<T> where T : BaseEntity
     {
         Task<T> Create(T entity);
         Task<T> GetById(int id);

@@ -2,8 +2,6 @@
 using Permission.Api.Controllers.Base;
 using Permission.Core.DTOs;
 using Permission.Core.Interfaces.Services;
-using Permission.Core.Models;
-using Permission.Infra.Data.Models;
 
 namespace Permission.Api.Controllers
 {
@@ -15,7 +13,7 @@ namespace Permission.Api.Controllers
         {
             _service = service;
             _logger = logger;
-   
+
         }
         [HttpPost("datatable")]
         public async Task<IActionResult> Datatable(PaginatedDto request)

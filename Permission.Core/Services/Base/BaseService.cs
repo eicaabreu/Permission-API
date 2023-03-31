@@ -1,7 +1,7 @@
-﻿using Permission.Infra.Data.Models.Base;
-using Microsoft.EntityFrameworkCore;
-using System.Linq.Expressions;
+﻿using Microsoft.EntityFrameworkCore;
 using Permission.Infra.Data.Context;
+using Permission.Infra.Data.Models.Base;
+using System.Linq.Expressions;
 
 namespace Permission.Core.Services.Base
 {

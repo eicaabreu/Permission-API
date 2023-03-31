@@ -1,6 +1,4 @@
-﻿
-using Azure.Core;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Permission.Core.DTOs;
 using Permission.Core.Extensions;
 using Permission.Core.Interfaces.Services;
@@ -9,7 +7,6 @@ using Permission.Core.Services.Base;
 using Permission.Infra.Data.Context;
 using Permission.Infra.Data.Models;
 using System.Linq.Expressions;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Permission.Core.Services
 {
@@ -117,7 +114,7 @@ namespace Permission.Core.Services
 
                 });
             }
-            
+
             return result;
         }
     }
